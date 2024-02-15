@@ -1,0 +1,85 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 7px;
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Audiowide, sans-serif;
+    border-radius: 8px;
+}
+
+li {
+    display:inline-block;
+    width: 150px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+li a:hover{
+    background-color: #89C4E1;
+    color: black;
+    font-weight: bold;
+    font-family: Audiowide, sans-serif;
+}
+
+li a:hover:not(.aktif){
+    background-color: #39B95A;
+}
+
+.aktif{
+    background-color: #39B95A;
+    color: black;
+    font-weight: bold;
+    font-family: Audiowide, sans-serif;
+}
+
+ul li ul {
+    background-color:#000000;
+    display:none;
+    position:absolute;
+    width:140px
+}
+
+ul li:hover ul{
+    display:block;
+    width:140px
+}
+li ul li {
+    display:block;
+    width:140px
+}
+
+.button {
+    background-color: #39B95A;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Sedgwick Ave', cursive;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 7px;
+}
+
+
+ul button {
+    position: absolute;
+    right: 15px;
+}
+
+ul label {
+    position: absolute;
+    right: 170px;
+    top: 28px;
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+}

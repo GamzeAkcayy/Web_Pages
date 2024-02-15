@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: inline-table;
+	padding: 60px;
+	width: 500px;
+	gap: 12px;
+}
+
+.container .item {
+	padding: 15px;
+	width: 1000px;
+}

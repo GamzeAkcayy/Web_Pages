@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+#anasayfa{
+  
+    background-attachment: fixed;
+    background-image: url("images/ay.jpg");
+}
+#icerik{
+    position: absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.hakkimda {
+    position: relative;
+    display: inline-block;
+}
+
+  #hobiler{
+    padding: 50px;
+    text-align: center;
+    height: 700px;     
+  }
+
+  .card{
+    padding: 0;
+    width: 320px;
+    height: 350px;
+    border: 1px solid rgb(17, 81, 137);
+    display: inline-block;
+  }
+  .img-fluid{
+    
+    height: 300px;
+    width: 300px;
+  }
+  .img-fluis{
+    max-width: 100%;
+    height: auto;
+  }
+  .baslikcard{
+    font-size: 15px;
+    color: #39B95A;
+  }
+  #iletisim{
+    padding: 50px;
+    height: 800px;
+    text-align: center;
+  }
+  #iletisim1{
+    color: #ddd;
+  }
+  .sutun-sol-sag{
+    width: 385px;
+    float: left;
+    padding: 50px;
+  }
+  .oval{
+    border-radius: 50%;
+  }
+  .isim{
+    color: #ddd;
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .bilgi{
+    color: #ddd;
+  }
+  
+#iletisimalan{
+  
+  /*background-size: cover;*/
+  padding: 50px;
+  height: auto;
+  text-align: center;
+}
+#iletisimopak{
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  height: 50px;
+}
+#solform{
+  width: 50%;
+  float: left;
+  padding-right: 5px;
+}
+#sagform{
+  width: 50%;
+  float: right;
+  padding-left: 5px;
+}
+.form-control{
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+  
